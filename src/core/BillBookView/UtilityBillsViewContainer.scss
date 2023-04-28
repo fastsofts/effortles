@@ -1,0 +1,57 @@
+.utilityBillsViewContainer {
+    background-color: var(--colorGreyBg);
+    width: 100%;
+    overflow: auto;
+    .card {
+        background: var(--colorWhite);
+        box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.1);
+        border-radius: 18px;
+        padding: 16px;
+        margin: 32px 20px;
+        .listItem {
+            display: grid;
+            grid-template-columns: 50px 1fr auto;
+            border-bottom: 0.5px solid var(--colorDivider);
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+            cursor: pointer;
+            &:last-child {
+                border: none;
+                margin: 0;
+                padding: 0;
+            }
+            .icon {
+                
+                .fontIcon {
+                    font-size: 40px;
+                }
+                .iconImg {
+                    width: 35%;
+                    background: var(--colorGreyBg);
+                    padding: 12px;
+                    border-radius: 50%;
+                }
+            }
+            .content {
+                padding-left: 4px;
+                padding-right: 24px;
+                .title {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: var(--colorTitle);
+                }
+                .desc {
+                    color: #9F9FAE;
+                    font-size: 13px;
+                    margin-top: 4px;
+                    font-weight: 300;
+                }
+            }
+            .arrow {
+                font-size: 16px;
+                color: var(--colorGrey);
+                align-self: center;
+            }
+        }
+    }
+}

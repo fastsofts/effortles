@@ -1,0 +1,235 @@
+.paymentViewContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+.paymentsOptions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 15px;
+}
+.hrlLine{
+    width: 82%;
+    margin: 0% 6% 0% 6%;
+}
+.divRule{
+    display: flex;
+    flex-direction: column;
+}
+.itemWrapperFirst {
+    border-radius: 15px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 80px;
+    margin: 0px 0;
+    background-color: var(--colorWhite);
+
+    .icons {
+        font-size: 20px;
+        color: var(--colorGrey);
+        padding-right: 5px;
+        min-width: 15%;
+    }
+    .minWidth10{
+        min-width: 10%;
+    }
+    .minWidth20{
+        min-width: 20%;
+    }
+    .imgBackground{
+        border-radius: 50%;
+        width: 50%;
+        height: 40%;
+        background-color: #EEEEEE;
+        margin-left: 25%;
+    }
+    .uploadYourBillImg{
+        width: 40%;
+        height: 30%;
+        margin: 25%;
+    }
+    .minWidth15{
+        min-width: 15%;
+        align-self: end;
+        padding-bottom: 5%;
+    }
+    .arrowIcon {
+        color: var(--colorGrey);
+        height: 0.7rem;
+    }
+
+    .itemInfo {
+        display: flex;
+        flex-direction: column;
+        min-width: 65%;
+        .title {
+            font-size: 14px;
+            color: var(--colorDark);
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .desc {
+            font-weight: 300;
+            font-size: 13px;
+            color: var(--colorGrey);
+        }
+        .minWidth80{
+            min-width: 80%;
+        }
+    
+    }
+    .minWidth80{
+        min-width: 80%;
+    }
+
+}
+.itemWrapperLast {
+    border-radius: 15px;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 80px;
+    margin: 0px 0;
+    background-color: var(--colorWhite);
+
+    .icons {
+        font-size: 20px;
+        color: var(--colorGrey);
+        padding-right: 5px;
+        min-width: 15%;
+    }
+    .minWidth10{
+        min-width: 10%;
+    }
+    .minWidth20{
+        min-width: 20%;
+    }
+    .imgBackground{
+        border-radius: 50%;
+        width: 50%;
+        height: 40%;
+        background-color: #EEEEEE;
+        margin-left: 25%;
+    }
+    .uploadYourBillImg{
+        width: 40%;
+        height: 30%;
+        margin: 25%;
+    }
+    .minWidth15{
+        min-width: 15%;
+        align-self: end;
+        padding-bottom: 5%;
+    }
+    .arrowIcon {
+        color: var(--colorGrey);
+        height: 0.7rem;
+    }
+
+    .itemInfo {
+        display: flex;
+        flex-direction: column;
+        min-width: 65%;
+        .title {
+            font-size: 14px;
+            color: var(--colorDark);
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .desc {
+            font-weight: 300;
+            font-size: 13px;
+            color: var(--colorGrey);
+        }
+        .minWidth80{
+            min-width: 80%;
+        }
+    
+    }
+    .minWidth80{
+        min-width: 80%;
+    }
+
+}
+.itemWrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 80px;
+    margin: 0px 0;
+    background-color: var(--colorWhite);
+    border-radius: 0px;
+    
+
+    .icons {
+        font-size: 20px;
+        color: var(--colorGrey);
+        padding-right: 5px;
+        min-width: 15%;
+    }
+    .minWidth10{
+        min-width: 10%;
+    }
+    .minWidth20{
+        min-width: 20%;
+    }
+    .imgBackground{
+        border-radius: 50%;
+        width: 50%;
+        height: 40%;
+        background-color: #EEEEEE;
+        margin-left: 25%;
+    }
+    .uploadYourBillImg{
+        width: 40%;
+        height: 30%;
+        margin: 25%;
+    }
+    .minWidth15{
+        min-width: 15%;
+        align-self: end;
+        padding-bottom: 5%;
+    }
+    .arrowIcon {
+        color: var(--colorGrey);
+        height: 0.7rem;
+    }
+
+    .itemInfo {
+        display: flex;
+        flex-direction: column;
+        min-width: 65%;
+        .title {
+            font-size: 14px;
+            color: var(--colorDark);
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+
+        .desc {
+            font-weight: 300;
+            font-size: 13px;
+            color: var(--colorGrey);
+        }
+        .minWidth80{
+            min-width: 80%;
+        }
+    
+    }
+    .minWidth80{
+        min-width: 80%;
+    }
+
+}
+

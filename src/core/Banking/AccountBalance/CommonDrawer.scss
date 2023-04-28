@@ -1,0 +1,249 @@
+
+  .custompopupsButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    position:relative;
+
+    background:  #FFFFFF !important;
+
+    border-radius: 18px;
+
+    text-align: center;
+    color: #6E6E6E !important;
+    flex: none;
+    order: 0; 
+    flex-grow: 0;
+    cursor:default;
+
+    border-radius:8px !important;
+    white-space: nowrap; 
+    min-width: auto;
+    border:1px solid #6E6E6E !important;
+    font-family: 'Lexend' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: .9vw !important;
+    line-height: 12px !important;
+    text-transform: none !important;
+  }
+
+
+  .radioLabel{
+    color: #283049  !important; 
+  }
+
+
+
+
+  .radioColor{
+    color:  #F08B32 !important;   
+  }
+
+
+  .custompopupsButtonsSelected{
+     background: #F08B32 !important; 
+     color:#FFFFFF !important;
+  }
+
+
+
+  .custompopupsButtons:hover{
+    cursor:pointer;
+    background:#F08B32;
+    opacity:.8;
+  }
+
+  .customButtonHolder{
+     padding:5px;
+  }
+
+  .optionButtons{
+     margin-left:18px !important;
+  }
+
+  .radioOption{
+     border-top: 1px solid rgba(199, 199, 199, 0.5) !important;
+     font-size: 16px  !important;
+     font-family: 'Lexend' !important;
+     font-style: normal  !important;
+     font-weight: 400  !important;
+     line-height: 10px  !important;
+     color: #283049  !important;
+     text-align: left  !important;
+     word-break: break-all  !important;
+     width:100% !important;
+     padding-top:10px;
+     padding-bottom:10px;
+  }   
+
+
+  .popupTitle{
+    font-family: 'Lexend';  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 20px;
+    letter-spacing: 0.374px;
+    color: #283049;
+    margin-left: 20px !important;
+    margin-top:30px !important;
+  }
+
+  .popupSubTitle{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 300;
+    font-size: .9vw;
+    line-height: 18px;
+    color: #283049;
+    margin-left: 20px !important;
+  }
+
+
+  .purposepopupTitle{
+    font-family: 'Lexend';  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 20px;
+    letter-spacing: 0.374px;
+    color: #283049;
+    margin-left: 20px !important;
+    margin-top:30px !important;
+  }
+
+  .purposepopupSubTitle01{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: .9vw;
+    line-height: 18px;
+    color: #283049;
+    margin-left: 20px !important;
+  }
+
+  .purposepopupSubTitle02{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    font-size: .9vw;
+    line-height: 18px;
+    color: #283049;
+    margin-left: 20px !important;
+    margin-top:20px !important;
+  }
+
+
+  .optionsbuttonHolder{
+    padding:10px;
+
+  }
+
+  #purposeGroup{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 500;
+    padding:10px;
+    font-size:.9vw;
+  }
+
+  [aria-labelledby="purposeGroup"] label{
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;   
+    font-size:.9vw;
+    padding-left:20px; 
+    color : #283049   
+  }
+
+
+  .popupNameButton{
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    padding: 2px 8px 4px;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;   
+    font-size:.9vw;   
+    float:right;
+    text-transform: capitalize;
+    border-radius: 4px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .popupTitle{
+      font-size:3vw !important;
+    }
+    
+    .popupSubTitle{
+      font-size:3vw !important;
+    }
+
+    .custompopupsButtons{
+        font-size:3vw !important;
+    }    
+
+
+    .purposepopupTitle{
+        font-size:3vw !important;
+    }    
+
+    .purposepopupSubTitle01{
+        font-size:3vw !important;
+    }  
+    
+    .purposepopupSubTitle02{
+        font-size:3vw !important;
+    }  
+
+    [aria-labelledby="purposeGroup"] label{
+        font-size:3vw !important;
+    }
+
+    [aria-labelledby="purposeGroup"] label span{
+        font-size:3vw !important;
+    }
+
+    .popupNameButton{
+        font-size:3vw;
+    }
+
+  }
+
+  .mainStack {
+    overflow: auto;
+    .listStack {
+      // position: absolute;
+      top: 91px;
+      width: 95%;
+      .list {
+        position: relative;
+        overflow: auto;
+        .divider {
+          width: 95%;
+        }
+      }
+    }
+  }
+  .mainStackDesktop {
+    overflow: auto;
+    .listStackDesktop {
+      // position: absolute;
+      top: 91px;
+      width: 95%;
+      .listDesktop {
+        position: relative;
+        overflow: auto;
+        .dividerDesktop {
+          // width: 95%;
+        }
+      }
+    }
+  }
+

@@ -1,0 +1,56 @@
+
+html {
+    height: 100%;   
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    background-color: #261201;    
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1rem;
+    position: relative;
+    cursor: default;
+}
+
+p, span, h1, h2, h3, h4, h5, h6, label, ul, li, div, table, tr, td, th {
+    font-family: 'Lexend', sans-serif !important;
+}
+
+.loadingContainer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--colorWhiteLight);
+    z-index: 99999999;
+    flex-direction: column;
+    gap: 5px;
+    // z-index: 1500;
+
+    .loader {
+        color: var(--colorPrimaryButton);
+    }
+}
+
+// To hide default password reveal button in Edge Browser
+input[type="password"]::-ms-reveal {
+  display: none;
+}
+
+trix-toolbar span[data-trix-button-group="file-tools"] {
+    display: none;
+}
+.endInput {
+    p{
+        color: rgb(160, 164, 175);
+        font-size: .8rem;
+    }
+	
+}
